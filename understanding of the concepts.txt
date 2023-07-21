@@ -1,0 +1,11 @@
+understanding of the concepts and ability to articulate inferences.
+
+subset of numeric and categorical feature columns.
+
+EDA so you touch upon important aspects.
+
+to demonstrate basic flow of EDA, data preparation to perform KNN classification to predict class of y.
+
+Split the dataset in 75:25 ratio for train and test. Use random_state = 14.
+
+Fit a model with K = 5
