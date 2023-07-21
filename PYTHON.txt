@@ -1,0 +1,33 @@
+dafa.sort_values(by=['productID'])
+dafa
+
+dafa1.sort_values(by=['productID'])
+dafa1
+
+dafa2.sort_values(by=['productID'])
+dafa2
+
+dafa_pivot_region2 = dafa_merged_new.pivot_table(index='region', columns='product name', values='value',aggfunc=np.max)
+dafa_pivot_region2
+
+ for the product with highest returns value, which region contributes the highest ?  (by using max)
+
+'S' region contributes the highest.
+
+ how much is this value? 
+
+The value is 29.857956 
+
+
+
+dafa_pivot_region = dafa_merged_new.pivot_table(index='region', columns='product name', values='value',aggfunc=np.sum)
+dafa_pivot_region
+
+
+ [2a] for the product with highest returns value, which region contributes the highest ? (by sum)
+ 
+ 
+ 'E' region  contributes the highest.
+ 
+
+[2b] how much is this value?      519.249304
